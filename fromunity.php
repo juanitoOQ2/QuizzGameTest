@@ -1,5 +1,6 @@
 <?php
 	//Declaracion de variables, igual a las variables en unity
+	header("Access-Control-Allow-Origin: *");
 	$text1 = $_POST["name"]; 
 	$text2 = $_POST["respuesta1"];
 	$text3 = $_POST["respuesta2"];
